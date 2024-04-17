@@ -11,7 +11,7 @@
 	<groupId>com.csn</groupId>
 	<artifactId>message-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>message</name>
+	<name>message-service</name>
 	<description>Messaging microservices for CSN</description>
 	<properties>
 		<java.version>17</java.version>
@@ -73,6 +73,9 @@
 				<artifactId>jib-maven-plugin</artifactId>
 				<version>3.4.0</version>
 				<configuration>
+					<container>
+						<mainClass>com.csn.messageservice.MessageApplication</mainClass>
+					</container>
 					<to>
 						<image>snckl/${project.artifactId}:v1</image>
 					</to>

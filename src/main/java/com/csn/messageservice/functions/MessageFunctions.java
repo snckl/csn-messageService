@@ -25,7 +25,7 @@ public class MessageFunctions {
         return postMessageDto -> {
           log.info("Sending message with the details: " + postMessageDto.toString());
           // Message business logic will be implemented later.
-          return "05376542522";
+          return postMessageDto.title();
         };
     }
 
