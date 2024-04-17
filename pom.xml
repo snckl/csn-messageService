@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.csn</groupId>
-	<artifactId>message</artifactId>
+	<artifactId>message-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>message</name>
 	<description>Messaging microservices for CSN</description>
@@ -26,7 +26,6 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-function-context</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>

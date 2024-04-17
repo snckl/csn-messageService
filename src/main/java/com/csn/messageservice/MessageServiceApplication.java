@@ -1,13 +1,12 @@
-package com.csn.message;
+package com.csn.messageservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MessageApplication {
-
+public class MessageServiceApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(MessageApplication.class, args);
+		SpringApplication.run(MessageServiceApplication.class, args);
 	}
 
 }
